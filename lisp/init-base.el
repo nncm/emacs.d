@@ -39,10 +39,14 @@
 (setq display-time-24hr-format t)   
 (setq display-time-day-and-date t)
 
-(set-default-font "Courier New-24")
+(fset 'yes-or-no-p 'y-or-n-p)
 
-(setq user-full-name "dobbin")  
-(setq user-mail-address "dobbin.fox@gmail.com")
+(setq uniquify-buffer-name-style 'forward)
+
+(set-default-font "Courier New-17")
+
+(setq user-full-name "Walter")
+(setq user-mail-address "niuniuchumen@gmail.com")
 
 (setq ring-bell-function 'ignore)
 
@@ -52,7 +56,12 @@
 
 (transient-mark-mode t)
 
-(setq backup-directory-alist `(("."."~/.saves")))
+(setq make-backup-files t)
+(setq kept-old-versions 2)
+(setq kept-new-versions 2)
+(setq delete-old-versions t)
+(setq backup-directory-alist '(("" . "~/.emacs.d/emacsbackup")))
+
 
 (setq visible-bell nil)
 

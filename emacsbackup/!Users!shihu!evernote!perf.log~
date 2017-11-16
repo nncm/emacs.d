@@ -1,0 +1,5 @@
+sudo perf record -F 100 -e 'cycles' -g -p 94554 -- sleep 30
+
+perf record表示记录，-F 99表示每秒99次，-p 94554是进程号，即对哪个进程进行分析，-g表示记录调用栈，sleep 30则是持续30秒。
+
+perf script | FlameGraph/stackcollapse-perf.pl | FlameGraph/flamegraph.pl > perf.svg

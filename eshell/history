@@ -1,280 +1,3 @@
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.0.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-cd ./etc/
-ll
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzbc
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzbc2
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzzc
-ll
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzzc
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzbc
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzbc2
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzbc2
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzbc
-cp mod_itembase_builder.conf.bjdt  mod_itembase_builder.conf.zzzc
-ll
-cd ..
-history | grep scp
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.0.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.0.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.0.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-rm -rf ./packages/
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.0.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-pwd
-rm -rf ./packages/;
-rm -rf ./packages/;
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.0.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.0.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-grep "ItemBuild" ./*
-ll
-make clean
-ll
-mv mod_itembase_builder.h mod.h
-mv mod_itembase_builder.cc mod.cc
-ll
-cd ..
-make clean
-history | grep scp
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.5.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/
-ll
-ll
-ll
-clear
-ll
-rm -rf packages/
-ll
-cd ..
-cd cloudair_util/
-ll
-svn up
-make
-ll
-make
-make clean
-make
-ll
-cd util/
-ll
-ll
-cd ..
-ll
-make
-make clean
-make
-cd util/
-ll
-ll | grep "lib"
-cp libcloudair_util.so.1.190608 /tmp/
-cd ..
-cd ..
-cd ./cloudair_itembase_builder_v1/
-ll
-cd ./packages/
-history | grep scp
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.5.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/ 
-cd ..
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.5.tgz spdbf12.qss.zzbc2.qihoo.net:/tmp/ 
-cd ..
-cd ./cloudair_itembase_v1/
-ll
-rm -rf ./packages/
-ll
-make clean
-rm -rf ./packages/
-ll
-svn st
-cd ..
-svn add cloudair_itembase_v1/
-cd cloudair_itembase_v1/jansson/lib/
-ll
-svn add *
-cd ..
-cd ..
-ll
-svn st
-cd lib/
-ll
-cd .
-..
-svn st
-svn st
-svn up
-cd ..
-cd cloudair_itembase_builder_v1/
-ll
-rm -rf ./packages/
-ll
-cd ..
-svn add cloudair_itembase_builder_v1/
-svn add cloudair_itembase_builder_v1/*
-ll
-cd cloudair_itembase_builder_v1/
-ll
-svn add *
-cd jansson/
-cd lib/
-svn add *
-cd ../
-cd ..
-cd librdkafka/
-cd lib/
-ll
-svn add librdkafka.a 
-cd ..
-cd ..
-svn st
-svn add *
-cd src/
-svn add *
-make clean
-svn add *
-cd ..
-svn st
-cd etc/
-ll
-svn add *
-cd ..
-ll
-svn st
-history | grep scp
-cd ..
-cd ..
-cd -
-cd cloudair_userbase_builder/
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/
-cd ..
-cd cloudair_itembase_builder_v1/
-ll
-history | grep scp | grep 30
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.5.tgz  air30.se.zzzc.qihoo.net:/tmp/
-cd etc/
-ll
-cp mod_itembase_builder.conf.zzbc mod_itembase_builder.conf.demo
-ll
-cd ..
-cd tools/
-cp install.sh  install_demo.sh 
-cd ..
-his | grep scp
-history  | grep scp
-scp -rp ./packages/cloudair_itembase_builder-6-1.0.5.tgz  air30.se.zzzc.qihoo.net:/tmp/ 
-cd ..
-cd cloudair_userbase_builder/
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/
-grep -rn "exit" ./*
-make clean
-grep -rn "exit" ./*
-grep -rn "exit" ./*.cc
-find . -name "*.cc" | xargs grep "exit"
-find . -name "*.cc" | xargs grep "exit"
-find . -name "*.cc" | xargs grep "exit"
-find . -name "*.h" | xargs grep "exit"
-rm -rf ./packages/
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/
-ll
-clear
-cd src/
-cd ..
-cd ..
-cd cloudair_itembase_builder_v1/
-ll
-history | grep scp | grep 33
-cp ../../cloudair_itembase_v1/src/global.h ./
-cd ..
-cd ..
-cd cloudair_itembase_v1/
-rm -f ./packages/
-rm -fr ./packages/
-history | grep scp
-history | grep scp | grep 33
-scp -rp ./packages/cloudair_itembase-6-2.0.4.tgz air33.se.zzzc.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_itembase-6-2.0.4.tgz air34.se.zzzc.qihoo.net:/tmp/
-cd ..
-cd cloudair_userbase_builder/
-rm -f ./packages/
-rm -fr ./packages/
-ll ./packages/
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/ 
-cd etc/
-ll
-vim mod_userbase_builder.conf.demo
-cd ..
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/ 
-cd etc/
-ll
-rm -f mod_userbase_builder.conf.zzbc
-rm -f mod_userbase_builder.conf.bjdt 
-ll
-cd ..
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/ 
-scp -rp ./packages/cloudair_userbase_builder-6-1.0.0.tgz  spdbf12.qss.zzbc2.qihoo.net:/tmp/ 
-cd ..
-cd cloudair_userbase
-cd test/
-ll
-python request.py 
-cd py/
-ll
-python request.py 
-cd ..
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-cd ..
-history | grep scp
-history | grep scp | grep f1
-history | grep scp | grep f1.q
-cd test/
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-python request.py 
-cd ..
-rm -f ./packages/
-history | grep scp
-scp -rp ./packages/cloudair_itembase-6-2.0.5.tgz air33.se.zzzc.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_itembase-6-2.0.5.tgz air34.se.zzzc.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_itembase-6-2.0.5.tgz air34.se.zzzc.qihoo.net:/tmp/
-cd packages/
-ll
-cd ..
-rm -rf ./packages/
-scp -rp ./packages/cloudair_itembase-6-2.0.5.tgz air34.se.zzzc.qihoo.net:/tmp/
-scp -rp ./packages/cloudair_itembase-6-2.0.5.tgz air33.se.zzzc.qihoo.net:/tmp/
-cd ..
 cd cloudair_itembase_v1/
 svn diff
 svn ci -m "modify logging level to INFO. itembase 2.0.4"
@@ -4094,3 +3817,280 @@ ll
 cd ratelimiter/
 ll
 vim ratelimiter.go
+ls
+ll
+which vim
+cd /usr/local/Cellar/vim/
+ll
+cd 8.0.1200/
+ll
+cd bin/
+ll
+pwd
+ssh b126
+cd 
+gcc -xc++ -E -v -
+cmake
+ll
+cd ..
+ll
+cmake -
+brew install cmake
+cmake
+make -
+brew install cmake
+gcc -xc++ -E -v -
+ll
+cd cmake/
+ll
+cd ..
+ll
+cd src/
+ll
+cd ..
+ll
+cmake . -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+mkdir -p build
+cmake . -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+cd build-aux/
+cd ..
+cd build/
+cd ..
+ll
+cd ..
+cd ..
+mkdir -p irony
+cd -
+cd irony-20171018.1550/
+cmake -DCMAKE_INSTALL_PREFIX\=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build . --use-stderr --config Release --target install
+cd ..
+cmake -DCMAKE_INSTALL_PREFIX\=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build . --use-stderr --config Release --target install
+cd ..
+cmake -DCMAKE_INSTALL_PREFIX\=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build . --use-stderr --config Release --target install
+cd -
+cd irony-20171018.1550/
+cd server/
+cmake -DCMAKE_INSTALL_PREFIX\=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build . --use-stderr --config Release --target install
+ll ~/.emacs.d/irony/
+which clang
+cmake -DCMAKE_INSTALL_PREFIX=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build . --use-stderr --config Release --target install
+mkdir build
+cd build/
+cmake -DCMAKE_INSTALL_PREFIX=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build .. --use-stderr --config Release --target install
+cmake .. -DCMAKE_INSTALL_PREFIX=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build . --use-stderr --config Release --target install
+cmake .. -DCMAKE_INSTALL_PREFIX=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build .. --use-stderr --config Release --target install
+cd ..
+ll
+rm -rf CMakeCache.txt
+cd build-aux/
+cd ..
+cd build/
+cmake .. -DCMAKE_INSTALL_PREFIX=/Users/shihu/.emacs.d/irony/ /Users/shihu/.emacs.d/elpa/irony-20171018.1550/server && cmake --build .. --use-stderr --config Release --target install
+cd ..
+ll
+cd -
+ll
+ls
+cd ..
+ll
+cd 
+cd .emacs.d/
+cd irony/
+ll
+cd bin/
+ll
+./irony-server 
+cd ..
+ll
+cd ..
+ll
+cd conf/
+ll
+cd ..
+ll
+cd tools/
+ll
+cd athena_tools/
+ll
+cd ..
+ll
+cd bin/
+ll
+cd ..
+cd ..
+ll
+cd 
+cd aliwork/
+cd shenma_online/
+cd athena/
+ll
+cd trunk/
+ll
+cd athena/
+ll
+cmake . -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+cd ..
+cmake . -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+git clone --recursive https://github.com/Andersbakken/rtags.git
+cd rtags/
+ll
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 .
+make
+ll
+cd bin/
+ll
+cd ..
+ll
+cd ..
+cp -rp rtags/ ~/.emacs.d/
+drwxr-xr-x  10 shihu          staff      340 2017-11-13 11:19 scricd pts
+cd 
+cd .emacs.d/
+cd rtags/
+ll
+cd bin/
+ll
+nohup ./rdm &
+-rw-r--r--   1 shihu          staff    24122 2017-11-13 11:21 CMakeCache.txt
+ll
+./bin/rc -J .
+./rc -J .
+cd ..
+ll
+./bin/rc -J .
+ll
+ls -lrt
+cd bin/
+ll
+cd ..
+ll
+ll
+~/.emacs.d/rtags/bin/rc -J ~/.emacs.d/rtags/compile_commands.json
+ll
+ls -a
+which rc
+echo $PATH
+. ~/.zshrc
+cd ..
+cd ..
+cd 
+cd aliwork/
+ll
+cd sc
+cd shenma_online/athena/
+ll
+cd trunk/
+ll
+pwd
+. ~/.zshrc
+lf
+plf
+cd 
+cd .emacs.d/
+mkdir -p emacsbackup
+cd 
+cd aliwork/
+ll
+cd shenma_online/
+ll
+cd athena/
+cd trunk/
+ll
+cscope -Rbq
+ls
+ls -a
+cd athena/
+cscope -Rbq
+ls 
+rm -rf cscope.po.out
+rm -rf cscope.*
+cd ..
+rm -rf cscope.*
+ll
+find . -name "cscope*"
+ll
+ls
+clear
+ll
+cd ..
+ll
+cd -
+ll
+plf
+cd aliwork/shenma_online/athena/
+cd trunk/
+ll
+cd athena/
+cd athena_worker/
+cd ..
+cd app/
+ll
+cd ..
+cd eshell/
+cd ..
+cd elpa/
+rm -rf company-jedi-20151216.1921/
+cd ..
+cd aliwork/
+cd shenma_online/athena/
+cd trunk/
+ll
+cd athena/
+ll
+less GTAGS
+ll
+cd app/
+ll
+cd 
+ll
+mkdir -p evernote
+cd evernote/
+ll
+clear
+ll
+cd ..
+rm -rf get-pip.py 
+rm -rf ctags-5.8*
+ll
+rm -rf a.cc
+rm -rf perf.svg 
+ll
+cd aliwork/
+ll
+cd shenma_online/athena/
+ll
+cd trunk/
+ll
+cd athena/
+ll
+cd util/
+ll
+cd ..
+ll
+cd proto/
+ll
+brew install protoc
+brew install proto
+brew install protobuf
+protoc help
+protoc --help
+protoc --cpp_out=./ ./*.proto
+ll
+cd ..
+ll
+cd service/
+ll
+cd ..
+ll
+cd athena_worker/
+ll
+cd ..
+cd .
+cd ..
+ll
+cd ..
+cd 
+cd aliwork/
+ll
+cd sm-xss/
+ll

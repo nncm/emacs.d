@@ -17,6 +17,7 @@
 						  monokai-theme
 						  ;;hungry-delete
 						  helm
+						  ggtags
 						  ;;color-theme smex ivy counsel swiper
 						  flycheck
 						  undo-tree
@@ -41,6 +42,9 @@
 						  elpy
 						  highlight-symbol
 						  ace-jump-mode
+						  irony
+						  company-irony-c-headers
+						  company-irony
 						  ) "Default packages"
 							)
 

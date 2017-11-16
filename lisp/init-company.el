@@ -9,7 +9,9 @@
   (define-key company-active-map (kbd "C-n") #'company-select-next)
   (define-key company-active-map (kbd "C-p") #'company-select-previous))
 
-(add-to-list 'company-backends 'company-c-headers)
+(eval-after-load 'company
+  '(add-to-list 'company-backends '(company-c-headers company-irony company-irony-c-headers)))
+
 
 (defun ede-object-system-include-path ()
   (when ede-object

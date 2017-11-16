@@ -17,6 +17,8 @@
 
 (require 'init-session)
 
+(require 'init-irony)
+
 (require 'init-cedet)
 
 ;;(require 'init-ecb)
@@ -31,7 +33,7 @@
 
 (require 'init-recentf)
 
-(require 'init-popwin)
+;;(require 'init-popwin)
 
 (require 'init-dired)
 
@@ -49,7 +51,7 @@
 
 (require 'init-company)
 
-(require 'init-elpy)
+;;(require 'init-elpy)
 
 (require 'init-proto)
 
@@ -68,6 +70,8 @@
 (require 'init-go)
 
 (require 'init-highlight)
+
+(require 'init-ggtags)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 
