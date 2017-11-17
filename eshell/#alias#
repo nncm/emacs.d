@@ -1,4 +1,0 @@
-alias ll ls -l $*
-alias plf cd /home/wangtao1-pd/360_works/CloudAir/trunk $*
-
-
