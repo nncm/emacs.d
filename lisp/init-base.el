@@ -57,9 +57,20 @@
 (transient-mark-mode t)
 
 (setq make-backup-files t)
+(setq backup-by-copying t)
 (setq kept-old-versions 2)
 (setq kept-new-versions 2)
 (setq delete-old-versions t)
+
+(setq autosave-dir "~/.emacs.d/autosaves/")
+(setq backup-dir "~/.emacs.d/backups/")
+(if (not (file-exists-p autosave-dir))  (make-directory autosave-dir))
+(if (not (file-exists-p backup-dir))  (make-directory backup-dir))
+(setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
+(setq backup-directory-alist `((".*" . ,backup-dir)))
+(setq auto-save-list-file-prefix autosave-dir)
+
+
 (setq backup-directory-alist '(("" . "~/.emacs.d/emacsbackup")))
 
 

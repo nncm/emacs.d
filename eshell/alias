@@ -1,4 +1,0 @@
-alias -rw-r--r--  $*
-alias plf cd /Users/didi/goprojects $*
-alias case cd /Users/didi/goprojects/src/caseback $*
-alias ll ls -l $*
