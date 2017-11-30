@@ -2,7 +2,12 @@
 
 (setq ivy-use-virtual-buffers t)
 
-(global-set-key "\C-s" 'swiper)
+(defun swiper-dwim()
+  (interactive)
+  (swiper (format "%s" (thing-at-point 'symbol))))
+
+(global-set-key (kbd "C-s") 'swiper)
+(global-set-key (kbd "M-s") 'swiper-dwim)
 (global-set-key (kbd "C-c C-r") 'ivy-resume)
 (global-set-key (kbd "C-x b") 'ivy-switch-buffer)
 (global-set-key (kbd "M-x") 'counsel-M-x)

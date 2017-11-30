@@ -5,7 +5,7 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 
-(global-set-key (kbd "<f2>") 'open-init-file)
+;;(global-set-key (kbd "<f2>") 'open-init-file)
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 

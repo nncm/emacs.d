@@ -43,9 +43,9 @@
 
 (setq uniquify-buffer-name-style 'forward)
 
-(set-default-font "Courier New-17")
+(set-default-font "Courier New-20")
 
-(setq user-full-name "Walter")
+(setq user-full-name "nncm")
 (setq user-mail-address "niuniuchumen@gmail.com")
 
 (setq ring-bell-function 'ignore)
