@@ -275,7 +275,6 @@
      bat-generic-mode
      c++-mode
      c-mode
-     go-mode
      csharp-mode
      css-mode
      dos-mode

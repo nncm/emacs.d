@@ -3,6 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ahs-idle-interval 1.0)
  '(company-idle-delay 0.05)
  '(company-minimum-prefix-length 1)
  '(custom-safe-themes
@@ -14,7 +15,7 @@
  '(eshell-history-size 4096)
  '(helm-display-buffer-default-height 10)
  '(helm-display-buffer-default-width 30)
- '(highlight-symbol-foreground-color "black")
+ '(highlight-symbol-foreground-color "forest green")
  '(highlight-symbol-highlight-single-occurrence t)
  '(highlight-symbol-idle-delay 0.5)
  '(package-selected-packages
@@ -31,4 +32,4 @@
  '(ahs-definition-face ((t (:background "plum1" :foreground "dark cyan"))))
  '(ahs-face ((t (:background "gray69" :foreground "color-40"))))
  '(ahs-plugin-defalt-face ((t (:background "thistle4" :foreground "#1B1E1C"))))
- '(highlight-symbol-face ((t (:background "cyan")))))
+ '(highlight-symbol-face ((t (:background "medium aquamarine")))))

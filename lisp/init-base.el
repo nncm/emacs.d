@@ -45,6 +45,9 @@
 
 (set-default-font "Courier New-20")
 
+(which-function-mode t)
+(setq minor-mode-alist nil)
+
 (setq user-full-name "nncm")
 (setq user-mail-address "niuniuchumen@gmail.com")
 
@@ -70,9 +73,7 @@
 (setq backup-directory-alist `((".*" . ,backup-dir)))
 (setq auto-save-list-file-prefix autosave-dir)
 
-
 (setq backup-directory-alist '(("" . "~/.emacs.d/emacsbackup")))
-
 
 (setq visible-bell nil)
 
@@ -89,8 +90,6 @@
 (global-set-key (kbd "C-h C-f") 'find-function-on-key)
 
 (setq compilation-scroll-output t)
-
-(setq mac-command-modifier 'meta)
 
 (provide 'init-base)
 

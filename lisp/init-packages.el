@@ -41,6 +41,7 @@
 						  company-jedi
 						  elpy
 						  highlight-symbol
+						  auto-highlight-symbol
 						  ace-jump-mode
 						  irony
 						  company-irony-c-headers
