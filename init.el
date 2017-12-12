@@ -11,8 +11,6 @@
 
 (require 'init-packages)
 
-(require 'init-base)
-
 (require 'init-exec)
 
 (require 'init-session)
@@ -72,6 +70,8 @@
 (require 'init-highlight)
 
 (require 'init-ggtags)
+
+(require 'init-base)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 

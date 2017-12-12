@@ -46,6 +46,7 @@
 (set-default-font "Courier New-20")
 
 (which-function-mode t)
+
 (setq minor-mode-alist nil)
 
 (setq user-full-name "nncm")

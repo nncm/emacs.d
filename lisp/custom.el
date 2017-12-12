@@ -13,6 +13,7 @@
  '(ecb-tree-indent 2)
  '(ede-project-directories (quote ("/home/wangtao1-pd/360_works/CloudAir/trunk")))
  '(eshell-history-size 4096)
+ '(ggtags-highlight-tag nil)
  '(helm-display-buffer-default-height 10)
  '(helm-display-buffer-default-width 30)
  '(highlight-symbol-foreground-color "forest green")
