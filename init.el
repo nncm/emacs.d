@@ -9,13 +9,15 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
+(require 'init-ediff)
+
 (require 'init-packages)
 
 (require 'init-exec)
 
 (require 'init-session)
 
-(require 'init-irony)
+(require 'init-ccmode)
 
 (require 'init-cedet)
 

@@ -5,7 +5,7 @@
 (autoload 'ffip-save-ivy-last "find-file-in-project" nil t)
 (autoload 'ffip-ivy-resume "find-file-in-project" nil t)
 
-(setq ffip-project-root "~/360_works/CloudAir")
+(setq ffip-project-root "~/mywork")
 
 (setq ffip-match-path-instead-of-filename t)
 
