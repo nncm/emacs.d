@@ -43,9 +43,9 @@
 						  highlight-symbol
 						  auto-highlight-symbol
 						  ace-jump-mode
-						  irony
-						  company-irony-c-headers
-						  company-irony
+						  ;;irony
+						  ;;company-irony-c-headers
+						  ;;company-irony
 						  ) "Default packages"
 							)
 
