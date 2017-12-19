@@ -28,5 +28,9 @@
 
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 
+(defun my-cc-setup ()
+ (c-set-offset 'innamespace [0]))
+(add-hook 'c++-mode-hook 'my-cc-setup)
+
 (provide 'init-ccmode)
 
