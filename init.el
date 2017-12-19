@@ -49,8 +49,8 @@
 
 (require 'init-magit)
 
-(require 'init-ac)
-;;(require 'init-company)
+;;(require 'init-ac)
+(require 'init-company)
 
 ;;(require 'init-elpy)
 
