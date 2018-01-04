@@ -52,6 +52,8 @@
 ;;(require 'init-ac)
 (require 'init-company)
 
+(require 'init-imenu)
+
 ;;(require 'init-elpy)
 
 (require 'init-proto)

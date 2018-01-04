@@ -80,8 +80,12 @@
 
 (setq mac-option-modifier 'super)
 (setq mac-command-modifier 'meta)
+
+(setq-default indent-tabs-mode nil)
 (setq default-tab-width 4)
-(setq c-basic-offset 4)
+(setq c-basic-offset 2)
+(setq c-default-style "linux")
+
 
 (add-to-list 'auto-mode-alist '("\\.cc\\'" . c++-mode))
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))

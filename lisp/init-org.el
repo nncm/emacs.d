@@ -1,4 +1,6 @@
 (require 'org)
+
+(setq org-startup-indented t)
 (setq org-src-fnotify-natively t)
 (setq org-agenda-files '("~/org"))
 

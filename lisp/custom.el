@@ -16,6 +16,10 @@
  '(highlight-symbol-foreground-color "forest green")
  '(highlight-symbol-highlight-single-occurrence t)
  '(highlight-symbol-idle-delay 0.5)
+ '(imenu-auto-rescan nil)
+ '(imenu-generic-skip-comments-and-strings t)
+ '(imenu-sort-function nil)
+ '(org-agenda-files nil)
  '(package-selected-packages
    (quote
 	(protobuf-mode window-numbering hungry-delete monokai-theme company)))

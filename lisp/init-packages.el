@@ -43,6 +43,10 @@
 						  highlight-symbol
 						  auto-highlight-symbol
 						  ace-jump-mode
+						  imenu-list
+						  imenu-anywhere
+						  imenu+
+                          google-c-style
 						  ;;irony
 						  ;;company-irony-c-headers
 						  ;;company-irony
