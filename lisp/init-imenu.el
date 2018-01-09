@@ -2,7 +2,8 @@
 
 (require 'imenu-list)
 
-(global-set-key (kbd "C-'") #'imenu-list-smart-toggle)
+(global-set-key (kbd "C-c m") #'imenu-list-smart-toggle)
+(global-set-key (kbd "C-.") #'imenu-list-smart-toggle)
 
 (setq imenu-list-focus-after-activation t)
 

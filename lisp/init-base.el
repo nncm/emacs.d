@@ -43,9 +43,9 @@
 
 (setq uniquify-buffer-name-style 'forward)
 
-(set-default-font "Courier New-20")
+(set-default-font "Courier New-18")
 
-(which-function-mode t)
+(which-function-mode 1)
 
 (setq minor-mode-alist nil)
 
@@ -95,6 +95,9 @@
 (global-set-key (kbd "C-h C-f") 'find-function-on-key)
 
 (setq compilation-scroll-output t)
+
+(setq auto-revert-check-vc-info t)
+(setq auto-revert-interval 10)
 
 (provide 'init-base)
 
