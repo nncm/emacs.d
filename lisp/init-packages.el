@@ -16,11 +16,12 @@
 						  ;;solarized-theme
 						  monokai-theme
 						  ;;hungry-delete
-						  helm
+;;						  helm
 						  ggtags
 						  ;;color-theme smex ivy counsel swiper
 						  flycheck
 						  undo-tree
+                          neotree
 						  redo+
 						  find-file-in-project
 						  w3m

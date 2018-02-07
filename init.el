@@ -54,7 +54,7 @@
 
 (require 'init-imenu)
 
-;;(require 'init-elpy)
+(require 'init-elpy)
 
 (require 'init-proto)
 
@@ -75,6 +75,8 @@
 (require 'init-highlight)
 
 (require 'init-ggtags)
+
+(require 'init-neotree)
 
 (require 'init-base)
 
