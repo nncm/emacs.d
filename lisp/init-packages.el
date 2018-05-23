@@ -20,6 +20,7 @@
 						  ggtags
 						  ;;color-theme smex ivy counsel swiper
 						  flycheck
+                          py-autopep8
 						  undo-tree
                           neotree
 						  redo+

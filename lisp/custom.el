@@ -25,6 +25,7 @@
     (protobuf-mode window-numbering hungry-delete monokai-theme company)))
  '(popwin:popup-window-position (quote bottom))
  '(popwin:popup-window-width 35)
+ '(python-indent-guess-indent-offset nil)
  '(python-indent-offset 2)
  '(session-use-package t nil (session)))
 (custom-set-faces
